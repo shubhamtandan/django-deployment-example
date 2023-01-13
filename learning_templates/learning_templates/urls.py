@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+SECRET_KEY = '^ug)3&^9r%d692g6l3-w66$ef=(!3pe2deb4_zv-syp2ddq%9a'
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url,include
